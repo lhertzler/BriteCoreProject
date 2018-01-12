@@ -1,0 +1,236 @@
+body {
+	background-color: #f1f1f1;
+}
+
+.row {
+	max-width: 103.5rem;
+}
+
+.bar {
+  transition: height 1s;
+  background: #283754;
+}
+
+.top-menu {
+    background-color: #1071e2;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.top-menu i, .top-menu p, .top-menu span, .top-menu .img {
+    color: white;
+    display: inline-block;
+}
+
+.top-menu .extra-nav, .top-menu .search, .top-menu .avatar {
+	display: inline-block;
+}
+
+.top-menu .extra-nav i {
+	font-size: 21px;
+	padding: 25px;
+}
+
+.search {
+    width: 31%;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 20px;
+    padding-left: 4px;
+    line-height: 1.4;
+    margin-left: 33%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.search {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 39.9375em) {
+	.search {
+		margin-left: 4%;
+		background-color: transparent;
+		width: auto;
+	}
+}
+
+.top-menu .avatar {
+	float: right;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.top-menu .avatar:hover, .top-menu .extra-nav:hover, .options i:hover, .view-agency {
+	cursor: pointer;
+}
+
+.top-menu .avatar .name {
+	font-weight: 600;
+}
+
+.left-menu {
+	background-color: #283754;
+	height: 100%;
+	position: fixed;
+	z-index: 98;
+	padding-top: 70px;
+}
+
+.left-menu i {
+	color: white;
+	font-size: 21px;
+	padding: 25px;
+	display: block;
+}
+
+.left-menu i:hover {
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.15);
+}
+
+.left-menu i:nth-child(4) {
+	background-color: rgba(0,0,0,0.15);
+}
+
+.main {
+	padding: 84px 20px 50px 90px;
+}
+
+h1.title {
+    font-weight: 500;
+    padding-left: 20px;
+    color: #283754;
+    margin-top: 0;
+    opacity: 0.2;
+}
+
+.card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.15);
+}
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child) {
+	float: left;
+}
+
+.stats h2 {
+    font-size: 69px;
+    display: inline-block;
+    margin: 0;
+    color: #283754;
+}
+
+.stats i {
+    display: inline-block;
+    font-size: 32px;
+    color: #1071e2;
+}
+
+.stats p {
+    display: inline-block;
+    color: #a4afba;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.letters {
+	text-align: center;
+	padding: 30px 0 0 0;
+	margin-bottom: -20px;
+	z-index: 1;
+	position: relative;
+}
+
+.letters span {
+	padding: 0 10px;
+	color: rgba(0,0,0,0.11);
+}
+
+.letters span:hover {
+	cursor: pointer;
+	color: #1071e2;
+}
+
+.divider {
+	position: relative;
+}
+
+.divider h2 {
+	color: white;
+	background-color: #1071e2;
+	display: inline-block;
+	line-height: 0.7;
+	padding: 20px;
+	border-radius: 50%;
+	position: relative;
+	z-index: 2;
+	font-weight: 400;
+}
+
+.divider span {
+	left: 0;
+	height: 1px;
+	background-color: rgba(0,0,0,0.09);
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: 1;
+}
+
+.agencies .card h2 {
+	color: #283754;
+	font-size: 21px;
+	padding-bottom: 10px;
+}
+
+.agencies .item {
+    padding-bottom: 10px;
+}
+
+.agencies i {
+	display: inline-block;
+	color: #1071e2;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-right: 17px;
+}
+
+.agencies p {
+	display: inline-block;
+	color: #a4afba;
+	font-size: 14px;
+	margin: 0;
+}
+
+p.town, p.zip {
+	display: block;
+	margin-left: 33px;
+}
+
+.agencies .card h2, .agencies .card a {
+    padding-left: 33px;
+}
+
+.agencies .card a {
+	margin: 15px 0;
+	color: #1071e2;
+	font-weight: 500;
+	display: block;
+}
+
+.options {
+	position: relative;
+}
+
+.options i {
+    position: absolute;
+	right: -19px;
+	color: #a4afba;
+	top: -15px;
+	font-size: 20px;
+}
